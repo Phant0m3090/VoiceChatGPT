@@ -14,7 +14,7 @@ import os
 
 #init recognizer and chatgpt api
 speech = sr.Recognizer()
-openai.api_key = "Yourapi key"
+openai.api_key = "Your api key"
 model_engine = "text-davinci-003"
 
 class Ui(QtWidgets.QMainWindow):
